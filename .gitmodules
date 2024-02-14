@@ -1,6 +1,9 @@
 [submodule "colour"]
 	path = colour
+	branch = develop
 [submodule "colour-datasets"]
 	path = colour-datasets
+	branch = develop
 [submodule "colour-specio"]
 	path = colour-specio
+	branch = main
