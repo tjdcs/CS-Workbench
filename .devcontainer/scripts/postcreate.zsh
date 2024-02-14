@@ -1,3 +1,3 @@
 #!zsh
 
-/workspaces/DevContainer/.devcontainer/scripts/install-colour.zsh
+git config --global submodule.recurse true

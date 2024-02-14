@@ -1,3 +1,4 @@
 #!zsh
 
-/workspaces/DevContainer/.devcontainer/scripts/check-git-status.zsh
+git fetch
+git status -sb -uno
