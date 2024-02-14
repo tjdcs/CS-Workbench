@@ -1,0 +1,6 @@
+[submodule "colour"]
+	path = colour
+[submodule "colour-datasets"]
+	path = colour-datasets
+[submodule "colour-specio"]
+	path = colour-specio

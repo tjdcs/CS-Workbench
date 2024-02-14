@@ -1,0 +1,26 @@
+{
+  "build": {
+    "dockerfile": "dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+  },
+  "postCreateCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/postcreate.zsh",
+  "postStartCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/poststart.zsh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.black-formatter",
+        "ms-python.python",
+        "ms-python.isort",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker",
+        "charliermarsh.ruff",
+        "njpwerner.autodocstring",
+        "tamasfe.even-better-toml",
+        "p403n1x87.austin-vscode"
+      ]
+    }
+  },
+}
