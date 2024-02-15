@@ -15,6 +15,7 @@
         "ms-python.isort",
         "ms-toolsai.jupyter",
         "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
         "streetsidesoftware.code-spell-checker",
         "charliermarsh.ruff",
         "njpwerner.autodocstring",
@@ -22,5 +23,5 @@
         "p403n1x87.austin-vscode"
       ]
     }
-  },
+  }
 }

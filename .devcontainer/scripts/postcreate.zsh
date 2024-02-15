@@ -1,3 +1,4 @@
 #!zsh
 
-git config --global submodule.recurse true
+cd /workspaces/DevContainer
+poetry install

@@ -1,7 +1,3 @@
-[submodule "colour"]
-	path = colour
-	branch = develop
-	url = https://github.com/colour-science/colour.git
 [submodule "colour-datasets"]
 	path = colour-datasets
 	branch = develop
@@ -10,3 +6,7 @@
 	path = colour-specio
 	branch = main
 	url = https://github.com/colour-science/colour-specio.git
+[submodule "colour-science"]
+	path = colour-science
+	url = https://github.com/colour-science/colour.git
+	branch = develop
