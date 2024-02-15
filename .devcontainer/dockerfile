@@ -3,9 +3,12 @@ FROM mcr.microsoft.com/devcontainers/python:3.12
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
-    apt-get install -y git git-lfs austin --no-install-recommends && \
-    pipx install poetry
+    apt-get install -y git git-lfs austin --no-install-recommends
 
 RUN apt-get autoremove -y && \
     apt-get clean -y && \
     DEBIAN_FRONTEND=
+
+USER vscode
+RUN pipx install poetry
+
