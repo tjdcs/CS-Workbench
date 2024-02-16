@@ -3,7 +3,9 @@ FROM mcr.microsoft.com/devcontainers/python:3.12
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
-    apt-get install -y git git-lfs austin --no-install-recommends
+    apt-get install -y --no-install-recommends \
+    git git-lfs austin graphviz graphviz-dev libboost-all-dev libilmbase-dev \
+    libopenexr-dev libpng-dev libtiff5-dev
 
 RUN apt-get autoremove -y && \
     apt-get clean -y && \

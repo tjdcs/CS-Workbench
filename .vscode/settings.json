@@ -41,7 +41,6 @@
     "whitepoint"
   ],
   "[python]": {
-    "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "python.analysis.typeCheckingMode": "basic",
@@ -107,5 +106,5 @@
   "isort.importStrategy": "fromEnvironment",
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
+  }
 }

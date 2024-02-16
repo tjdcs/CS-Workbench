@@ -5,21 +5,21 @@
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
   },
-  "postCreateCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/postcreate.zsh",
-  "postStartCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/poststart.zsh",
+  "postCreateCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-create.zsh",
+  "postStartCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-start.zsh",
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.black-formatter",
         "ms-python.python",
-        "ms-python.isort",
-        "ms-toolsai.jupyter",
-        "ms-azuretools.vscode-docker",
-        "ms-vscode-remote.remote-containers",
         "streetsidesoftware.code-spell-checker",
         "charliermarsh.ruff",
         "njpwerner.autodocstring",
         "tamasfe.even-better-toml",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
         "p403n1x87.austin-vscode"
       ]
     }
