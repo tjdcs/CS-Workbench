@@ -1,6 +1,5 @@
 #!zsh
 git config --global --add safe.directory /workspaces/DevContainer
-git config --global --add safe.directory /workspaces/DevContainer/**
 
 poetry install
 
