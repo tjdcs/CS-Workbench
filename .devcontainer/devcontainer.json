@@ -2,11 +2,6 @@
   "build": {
     "dockerfile": "dockerfile"
   },
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
-  },
-  "postCreateCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-create.zsh",
-  "postStartCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-start.zsh",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -23,5 +18,7 @@
         "p403n1x87.austin-vscode"
       ]
     }
-  }
+  },
+  "postCreateCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-create.zsh",
+  "postStartCommand": "zsh /workspaces/DevContainer/.devcontainer/scripts/post-start.zsh"
 }
