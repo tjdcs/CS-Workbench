@@ -40,9 +40,6 @@
     "tristimulus",
     "whitepoint"
   ],
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.logLevel": "Warning",
   "python.analysis.autoFormatStrings": true,
@@ -104,6 +101,9 @@
     "source.organizeImports": "explicit"
   },
   "isort.importStrategy": "fromEnvironment",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   }
