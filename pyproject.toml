@@ -17,6 +17,9 @@ matplotlib = "^3.7.1"
 scikit-learn = "^1.2.2"
 pandas = "^2.2.0"
 opencv-python = "^4.8.1.78"
+pymoo = "^0.6.1.1"
+telnetlib3 = "^2.0.4"
+exscript = "^2.6.28"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
