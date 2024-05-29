@@ -106,5 +106,6 @@
   },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
-  }
+  },
+  "debugpy.debugJustMyCode": false,
 }
