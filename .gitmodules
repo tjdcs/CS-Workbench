@@ -1,6 +1,5 @@
 [submodule "colour-datasets"]
 	path = colour-datasets
-	branch = develop
 	url = https://github.com/colour-science/colour-datasets.git
     update = rebase
 [submodule "colour-specio"]
