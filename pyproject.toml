@@ -18,6 +18,7 @@ scikit-learn = "^1.2.2"
 pandas = "^2.2.0"
 opencv-python = "^4.8.1.78"
 
+
 [tool.poetry.dev-dependencies]
 jupyter = "*"
 black = "*"
@@ -31,10 +32,11 @@ ipykernel = "*"
 networkx = ">= 2.7, < 3"
 opencolorio = ">= 2, < 3"
 tqdm = "*"
-
+echion = "*"
 colour-science = { path = "colour-science", develop = true }
 colour-datasets = { path = "colour-datasets", develop = true }
 colour-specio = { path = "colour-specio", develop = true }
+
 
 [build-system]
 requires = ["poetry-core"]
@@ -67,7 +69,7 @@ reportUnsupportedDunderAll = false
 reportUnusedExpression = false
 
 [tool.pytest.ini_options]
-addopts = "-n auto --dist=loadscope --durations=5"
+addopts = "-n auto --dist=loadscope --durations=5 --import-mode=importlib"
 filterwarnings = [
     "ignore::RuntimeWarning",
     "ignore::pytest.PytestCollectionWarning",
